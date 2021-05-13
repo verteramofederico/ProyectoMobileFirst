@@ -1,0 +1,118 @@
+/* * { 
+    box-sizing: border-box; 
+ } */
+
+body {
+    background-color: #EAC926;
+    font-family: 'Roboto', sans-serif;
+    margin: 2%;
+}
+
+#logo {
+    width: 80%;
+}
+
+p {
+    font-size: 12px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+.cuotas {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.burger-menu {
+    color:#03264C;
+    width: 25px;
+    margin: auto; 
+}
+
+.fa-bars {
+    background-color: #ebebeb; 
+    background-size: cover; 
+}
+
+.precio {
+    font-size: 18px;
+}
+
+.descuentos {
+    font-size: 16px;
+}
+
+.descripciones {
+    font-size: 16px;
+}
+
+.imagenArticulo {
+    width: 70vw; 
+    margin-left: 15vw;
+    border: double 1px black ;
+}
+
+footer {
+    max-width: 100%;
+    background-color: white;
+    width: 100vw;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.footerData h4 {
+    color: #666;
+    text-align: center;
+}
+
+.footerData p, .footerSeudo {
+    text-align: center;
+}
+
+.fa-handshake {
+    color:#03264C;
+    margin-left: 45%;
+}
+
+
+.fa-gift {
+        color:#03264C;
+        margin-left: 45%;
+    }
+
+.fa-credit-card {
+    color: #03264C;
+    margin-left: 45%;
+}
+
+/* alternativa para limitar tamano maximo imagenes
+ img{
+    max-width: 90%;
+} */
+
+@media (min-width: 570px) {
+
+}
+
+@media (min-width: 900px) {
+
+}
+
+
+/* Paleta de colores
+Amarillo: #EAC926;
+Azul: #03264C;
+Celeste: #1259c3;
+Gris oscuro: #666;
+Gris claro: #ebebeb;
+Verde: #39b54a;
+Tamaños Tipográficos
+Cuerpos de texto: 12px
+Titulares (Basado en tu última visita/Ofertas): 24px
+Precios: 18px
+Descuentos: 16px
+Descripciones: 16px */
