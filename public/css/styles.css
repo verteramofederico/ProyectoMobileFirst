@@ -2,10 +2,46 @@
     box-sizing: border-box; 
  } */
 
+ /*    Estructura General       */
+
 body {
-    background-color: #EAC926;
     font-family: 'Roboto', sans-serif;
-    margin: 2%;
+    width: 90vw;
+}
+
+header {
+    background-color: #EAC926;
+}
+
+main {
+    width: 90vw;
+    margin: auto;
+    background-color: #ebebeb;
+}
+
+footer {
+    max-width: 100%;
+    background-color: white;
+    width: 100vw;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+/* Estructura Particular */
+
+.navbar {
+    display: none;
+}
+
+.articulos {
+    margin: 10px;
+    background-color: white;
+}
+
+.detalleArticulos {
+    border-top: solid 1px #ebebeb;
+    padding: 15px;
 }
 
 #logo {
@@ -22,6 +58,7 @@ h3 {
 
 .cuotas {
     width: 400px;
+    max-width: 80vw;
     margin-left: auto;
     margin-right: auto;
 }
@@ -43,26 +80,26 @@ h3 {
 
 .descuentos {
     font-size: 16px;
+    color: #39b54a; 
 }
 
 .descripciones {
     font-size: 16px;
+    display: none;
 }
 
 .imagenArticulo {
     width: 70vw; 
-    margin-left: 15vw;
-    border: double 1px black ;
+    margin: auto;
+    
 }
 
-footer {
-    max-width: 100%;
-    background-color: white;
-    width: 100vw;
-    margin-left: auto;
-    margin-right: auto;
-
+.fa-truck {
+    color: #39b54a;
+    border: solid 1px;
+    border-radius: 50%;
 }
+
 
 .footerData h4 {
     color: #666;
@@ -89,17 +126,30 @@ footer {
     margin-left: 45%;
 }
 
-/* alternativa para limitar tamano maximo imagenes
- img{
-    max-width: 90%;
-} */
 
-@media (min-width: 570px) {
+/* Tablets */
+
+@media (min-width: 361px) {
+    .descripciones {
+        display: block;
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+
+    .navbar {
+        display: block;
+    }
+
+    .burger-menu {
+        display: none; 
+    }
+
 
 }
 
-@media (min-width: 900px) {
+/* Desktop */
 
+@media (min-width: 769px) {
+    
 }
 
 
