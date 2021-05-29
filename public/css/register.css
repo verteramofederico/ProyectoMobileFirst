@@ -42,6 +42,7 @@
     margin-top: 50px;
 }
 
+
 .botonEnviar{
     transition: all 0.5s;
 }
@@ -64,5 +65,4 @@
             max-width: 60vw;
             margin: auto;
             border: none;
-        }  }
-
+        }  } ;

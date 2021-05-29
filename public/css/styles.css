@@ -8,7 +8,8 @@ body {
     
 }
 
-/* ------ Header -------- */
+/* ----------------- Header -------------- */
+
 
 .main__header {
     background-color: #EAC926;
@@ -48,6 +49,9 @@ body {
 
 #barraBusqueda {
     max-width: 50%;
+    display: flex;
+    margin-left: 8px;
+    
 }
 
 /*  #barra {
@@ -90,7 +94,8 @@ body {
 }
 
 
-/* ---------- MAIN ------------ */
+/* ------------------ MAIN ------------------ */
+
 
 main {
         margin: auto;
@@ -110,7 +115,15 @@ p {
 h3 {
     font-size: 20px;
     color: #666;;
-    margin-left: 12px;
+    text-align: center;
+    font-weight: 300;
+}
+
+h3 a {
+    font-size: 16px;
+    font-weight: 200;
+    color: blue;
+    margin-left: 8px;
 }
 
 .articulos {
@@ -182,7 +195,8 @@ h3 {
 }
 
 
-/* ---------- FOOTER ------------- */
+/* --------------- FOOTER ------------------ */
+
 
 footer {
     max-width: 100%;
@@ -217,7 +231,8 @@ footer {
 
 
 
-/* ------ Tablets -------- */
+/* --------------- Tablets --------------- */
+
 
 @media (min-width: 500px) {
     .descripciones {
@@ -321,7 +336,7 @@ footer {
  
 }
 
-/* Desktop */
+/* --------------------- Desktop  --------------------- */
 
 @media (min-width: 769px) {
     .main__header__section {
@@ -380,6 +395,9 @@ footer {
  
 
 }
+
+/* --------------- Grandes views  ------------------- */
+
 
 @media (min-width: 1200px) {
     .navbar, .main-header-top-bar {
